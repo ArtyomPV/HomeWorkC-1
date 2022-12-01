@@ -3,7 +3,7 @@
 принимает два числа и выдает, какое число большее, 
 а какое меньшее
 */
-//===============task 2========================
+//=============== task 2 ========================
 /*Console.Clear();
 
 Console.Write("Input first number: ");
@@ -20,7 +20,8 @@ else Console.Write("first number is minimal, second number is maximus.");
 Задача 4. Напишите программу, которая принимает
 на вход три числа и выдает максимальное из этих чисел
 */
-//===============task 4========================
+//=============== task 4 ========================
+/*
 Console.Clear();
 
 Console.Write("Enter first number: ");
@@ -38,17 +39,26 @@ if(number3 > maxNumber) maxNumber = number3;
 
 Console.Write("\n");
 Console.WriteLine($"The entered number {maxNumber}" + " is maximum \n");
-
+*/
 
 /*
 Задача 6. Напишите программу, которая на вход принимает
 число и выдает, является ли данное число четным
 (делится без остатка).
 */
+//=============== task 6 ========================
+
+Console.Clear();
+
+Console.Write("Enter a number: ");
+uint number = Convert.ToUInt32(Console.Read());
+
+if (number%2 == 0) Console.Write("The enterd number is even number.\n");
+else Console.Write("The enterd number is odd number.\n");
 
 
 /*
-Задача 6. Напишите программу, которая на вход принимает 
+Задача 8. Напишите программу, которая на вход принимает 
 число (N), а на выходе показывает все четные числа от 1 до N.
 
 */
