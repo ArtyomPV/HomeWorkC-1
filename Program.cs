@@ -47,18 +47,34 @@ Console.WriteLine($"The entered number {maxNumber}" + " is maximum \n");
 (делится без остатка).
 */
 //=============== task 6 ========================
-
+/*
 Console.Clear();
 
 Console.Write("Enter a number: ");
-uint number = Convert.ToUInt32(Console.Read());
+int number = Convert.ToInt32(Console.Read());
 
 if (number%2 == 0) Console.Write("The enterd number is even number.\n");
 else Console.Write("The enterd number is odd number.\n");
-
+*/
 
 /*
 Задача 8. Напишите программу, которая на вход принимает 
 число (N), а на выходе показывает все четные числа от 1 до N.
 
 */
+
+//=============== task 8 ========================
+Console.Clear();
+
+Console.Write("Enter a number: ");
+
+int number = Convert.ToInt32(Console.ReadLine());
+int count = 2;
+
+while (count<=number){
+    if (count%2==0){
+        if(count<number-1)   Console.Write($"{count}, ");
+        else Console.Write(count);
+    }
+    count+=2;
+}
