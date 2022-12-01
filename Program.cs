@@ -64,11 +64,16 @@ else Console.Write("The enterd number is odd number.\n");
 */
 
 //=============== task 8 ========================
-Console.Clear();
+Console.Clear();                                         
 
-Console.Write("Enter a number: ");
+Console.Write("Enter a number: ");                       
 
 int number = Convert.ToInt32(Console.ReadLine());
+
+while(number <=0) {
+    Console.Write("Enter a positive number: ");  
+    number = Convert.ToInt32(Console.ReadLine());  
+}       
 int count = 2;
 
 while (count<=number){
