@@ -51,7 +51,7 @@ Console.WriteLine($"The entered number {maxNumber}" + " is maximum \n");
 Console.Clear();
 
 Console.Write("Enter a number: ");
-int number = Convert.ToInt32(Console.Read());
+int number = Convert.ToInt32(Console.ReadLine());
 
 if (number%2 == 0) Console.Write("The enterd number is even number.\n");
 else Console.Write("The enterd number is odd number.\n");
@@ -62,7 +62,6 @@ else Console.Write("The enterd number is odd number.\n");
 число (N), а на выходе показывает все четные числа от 1 до N.
 
 */
-
 //=============== task 8 ========================
 Console.Clear();                                         
 
